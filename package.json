@@ -29,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "install": "chmod 755 push.sh && chmod 755 pull.sh"
+    "install": "chmod 755 push.sh && chmod 755 pull.sh",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
