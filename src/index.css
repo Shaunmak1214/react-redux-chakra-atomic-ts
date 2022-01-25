@@ -20,10 +20,10 @@ code {
 }
 
 #gradientText {
-  background-image: linear-gradient(
-    173.1deg,
-    rgba(244, 162, 110, 1) 12.4%,
-    rgba(218, 99, 104, 1) 88.5%
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(37, 145, 251, 0.98) 0.1%,
+    rgba(0, 7, 128, 1) 99.8%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
