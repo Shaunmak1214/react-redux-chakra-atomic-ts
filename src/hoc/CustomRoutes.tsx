@@ -41,7 +41,7 @@ const CustomRoute = ({
         refreshToken: authState.refreshToken,
       })
       .then((res) => {
-        if (res.status == 200 || res.status === 203 || res.status === 204) {
+        if (res.status === 200 || res.status === 203 || res.status === 204) {
           dispatch(
             LOGIN({
               user: res.data.user,

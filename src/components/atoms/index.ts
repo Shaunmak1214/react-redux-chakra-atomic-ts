@@ -11,6 +11,7 @@ import FooterHeader from './FooterHeader/FooterHeader';
 import CHDatePicker from './DatePicker/DatePicker';
 import CHTextArea from './TextArea/TextArea';
 import CHCalendar from './Calendar/Calendar';
+import RTextFormField from './RTextFormField/RTextFormField';
 export {
   PrimaryButton,
   SecondaryButton,
@@ -23,4 +24,5 @@ export {
   CHDatePicker,
   CHTextArea,
   CHCalendar,
+  RTextFormField,
 };

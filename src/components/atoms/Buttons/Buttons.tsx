@@ -7,15 +7,15 @@ const PrimaryButton = ({ ...props }) => {
   const children: React.ReactNode = props.children;
   return (
     <Button
-      color="#000000"
-      border="2px solid #000000"
+      color="#0148FA"
+      border="2px solid #0148FA"
       bg="transparent"
       borderRadius="3px"
       px="10"
       py="20px"
       _hover={{
-        bg: '#212121',
-        color: '#F5F5F5',
+        bg: '#B1C7FF',
+        color: '#0148FA',
       }}
       {...props}
     >

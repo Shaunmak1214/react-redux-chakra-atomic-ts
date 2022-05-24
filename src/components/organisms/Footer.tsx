@@ -30,13 +30,8 @@ const Footer = ({ marginTop }: Props) => {
             justifyItems={'center'}
           >
             <Box>
-              <Heading fontSize={'1.9rem'}>Company Name</Heading>
-              <Text py="20px">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique, assumenda cupiditate? Sit dolore hic itaque eum alias
-                libero explicabo voluptatem veritatis quod corrupti perferendis
-                expedita, nemo error laboriosam inventore nesciunt?
-              </Text>
+              <Heading fontSize={'1.9rem'}>Rodeo.my</Heading>
+              <Text py="20px">This is the admin dashboard for rodeo.my</Text>
             </Box>
             <Box>
               <FooterHeader>QUICK LINKS</FooterHeader>
